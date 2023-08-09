@@ -1,0 +1,21 @@
+.footer{
+    background-color: #222;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin: 0 auto;
+    color: #e4e4e4;
+}
+.top{
+    font-size: 2rem;
+    color: #e4e4e4;
+}
+.top:hover{
+    transform: translateY(-2px);
+}

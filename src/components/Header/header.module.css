@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin: 0 auto;
+    gap: 0.7rem;
+    color: #9fd3c7;
+    font-family: 'Poppins', sans-serif;
+    padding: 6rem 1rem;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.title h1{
+    font-size: 3rem;
+}
+.title h3{
+    margin-top: 16px;
+    margin-left: 6px;
+    font-size: 1.6rem;
+}
+.title p{
+    margin-left: 6px;
+    font-size: 1rem;
+    color: #969595;
+}
+.links{
+    margin-left: 6px;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.links a{
+    font-size: 2.3rem;
+    color: #ececec;
+    transition: 0.3s ease;
+} 
+.links a:hover{
+    color: #a3a7ac;
+    transform: translateY(-2px);
+}
+.code{
+    color: #3b3b3b;
+    font-size: 20rem;
+    border-radius: 10px; 
+    transition: 0.2s all linear;
+}
+.code:hover{
+    color: #9fd3c7;
+    filter: brightness(100%);
+}
+.contact{
+    padding: 12px;
+    background-color: #ececec;
+    text-decoration: none;
+    width: 25%;
+    color: #000;
+    font-weight: 500;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.contact:hover{
+    transform: translateX(6px);
+    box-shadow: 2px 2px 0px 0px #9fd3c7;
+}
+@media (max-width: 768px){
+    .title{
+        text-align: center;
+        width: 100%;
+    }
+    .title h1{
+        font-size: 2.6rem;
+    }
+    .title h3{
+        font-size: 1.4rem;
+        margin-top: 0;
+    }
+    .title p{
+        font-size: 0.9rem;
+    }
+    .links a{
+        font-size: 1.9rem;
+    }
+    .code{
+        display: none;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact{
+        text-align: center;
+        margin: 1rem auto;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 500px){
+    .title h1{
+        font-size: 2.3rem;
+    }
+    .title h3{
+        font-size: 1.1rem;
+        margin-top: 0;
+    }
+    .title p{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .contact{
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 350px){
+    .title h1{
+        font-size: 1.6rem;
+    }
+    .title h3{
+        font-size: 1rem;
+    }
+}

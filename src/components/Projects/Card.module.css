@@ -1,0 +1,67 @@
+.card{
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 270px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.description{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  position: absolute;
+  border-radius: 16px;
+  top: 50%;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+  text-align: center;
+  color: #eee;
+  gap: 0.8rem;
+}
+.description h2{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.description p{
+    font-size: .9rem;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card:hover .description{
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.repositories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    font-size: 1.5rem;
+}
+.repositories a{
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 932px){
+    .card{
+        width: 100%;
+    }
+}
