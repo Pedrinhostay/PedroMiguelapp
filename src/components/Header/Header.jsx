@@ -13,7 +13,7 @@ export default function Header(){
         <header className={style.header} id="top">
             <div className={style.title}>
             <h1>Olá, me chamo Pedro Miguel</h1>
-            <h3>Sou Desenvolvedor Front end React</h3>
+            <h3>Sou Desenvolvedor Front end</h3>
             <p>
                 "Empoderar pessoas por meio da tecnologia,
                 tornando o mundo mais acessível e
@@ -26,7 +26,7 @@ export default function Header(){
             linkedin="https://www.linkedin.com/in/pedromiguelg/"
             />
         </div>
-        <a className={style.contact} href="/src/curriculo.pdf" target="_blank">Download CV <FaDownload/></a>
+        <a className={style.contact} href="https://drive.google.com/file/d/1t23HccDgMaGHtTa5yNlitrwtfpMaFqDn/view" target="_blank">Download CV <FaDownload/></a>
         </div>
             <FaCode className={style.code}/>
         </header>

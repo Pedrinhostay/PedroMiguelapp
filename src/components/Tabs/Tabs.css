@@ -33,9 +33,10 @@
     display: flex;
     justify-content: center;
     border-radius: 100%;
+    cursor: pointer;
 }
 .active-tabs{
-    background: #a3a7ac;
+    background: #9fd3c7;
     color: #eeeeee;
     box-shadow: 0px 0px 15px #9fd3c7;
 }
