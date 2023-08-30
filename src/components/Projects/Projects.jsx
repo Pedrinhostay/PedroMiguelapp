@@ -17,6 +17,8 @@ export function Project(){
                 ele quer sistemas de pagamento, 
                 acessibilidade, login, recompensa e hospedagem.
                 "
+                globe="https://buscaai2-0.vercel.app/"
+                github="https://github.com/Pedrinhostay/buscaai2.0"
                 img={img1}
                 />
                 <Card 
@@ -26,7 +28,7 @@ export function Project(){
                  voce pode armazenar sua entrada mensal/diaria e as suas despesas e ficaram anotados para voce."
                 img={img2}
                 github="https://github.com/Pedrinhostay/app-financeiro"
-                globe="https://vercel.com/pedrinhostay/app-financeiro"
+                globe="https://app-financeiro-six.vercel.app/"
                 />
                 <Card 
                 text="Viagens App"
@@ -41,6 +43,7 @@ export function Project(){
                  para informar sobre horarios de aulas, valores e local.
                 Mas estou fazendo melhorias para ter algumas funcionalidades especificas como vender mensalidades e ter sistemas de login."
                 img={img4}
+                github="https://github.com/Pedrinhostay/Academy"
                 />
                 <Card 
                 text="Jogo DM"
