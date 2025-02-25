@@ -59,7 +59,7 @@ export function Techs(){
                 </div>
                 <div className={tableState === 5 ? "content active-content" : "content"}>
                     <h3>Node</h3>
-                    <p>Como um tempo de execução JavaScript assíncrono orientado a eventos, o Node.js foi projetado para criar aplicativos de rede escalonáveis. No exemplo de "hello world" a seguir, muitas conexões podem ser tratadas simultaneamente. A cada conexão, o retorno de chamada é acionado, mas se não houver trabalho a ser feito, o Node.js irá dormir.</p>
+                    <p>Como um tempo de execução JavaScript assíncrono orientado a eventos, o Node.js foi projetado para criar aplicativos de rede escalonáveis. No exemplo de {"hello world"} a seguir, muitas conexões podem ser tratadas simultaneamente. A cada conexão, o retorno de chamada é acionado, mas se não houver trabalho a ser feito, o Node.js irá dormir.</p>
                 </div>
             </div>
         </section>

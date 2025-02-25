@@ -1,24 +1,17 @@
 
-import { FaCode, FaDownload } from "react-icons/fa";
 import style from"./header.module.css"
 import { HeaderIcons } from "../HeaderIcons/HeaderIcons";
-import { useState } from "react";
-export default function Header(){
-    const [button , setButton] = useState(0)
 
-    function contact(){
-        style.top = "-400px"
-    }
+export default function Header(){
+
+ 
     return(
         <header className={style.header} id="top">
             <div className={style.title}>
             <h1>Olá, me chamo Pedro Miguel</h1>
             <h3>Sou Desenvolvedor Front end</h3>
             <p>
-                "Empoderar pessoas por meio da tecnologia,
-                tornando o mundo mais acessível e
-            <br /> 
-                possibilitando a todos alcançar seu pleno potencial."
+            Gostaria de atuar na área de desenvolvimento de sistemas integrados, criando experiências digitais intuitivas e funcionais. Desenvolver websites, Micro-SaaS e projetos autorais voltados para auxiliar pessoas, combinar design estratégico e tecnologia para oferecer soluções eficientes e impactantes.
           </p>
           <div className={style.links}>
             <HeaderIcons
@@ -26,9 +19,7 @@ export default function Header(){
             linkedin="https://www.linkedin.com/in/pedromiguelg/"
             />
         </div>
-        <a className={style.contact} href="https://drive.google.com/file/d/1t23HccDgMaGHtTa5yNlitrwtfpMaFqDn/view" target="_blank">Download CV <FaDownload/></a>
         </div>
-            <FaCode className={style.code}/>
         </header>
     )
 }

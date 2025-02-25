@@ -8,8 +8,8 @@ export function Card({text, paragraph, img, github, globe}){
             <h2>{text}</h2>
             <p>{paragraph}</p>
             <div className={style.repositories}>
-                <a href={github} target="_blank"><FaGithub/></a>
-                <a href={globe} target="_blank"><FaGlobe/></a>
+                <a href={github} target="blank"><FaGithub/></a>
+                <a href={globe} target="blank"><FaGlobe/></a>
             </div>
             </div>
         </div>

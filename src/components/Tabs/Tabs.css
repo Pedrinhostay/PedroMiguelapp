@@ -2,7 +2,7 @@
     text-align: center  ;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.4rem;
-    color: #e4e4e4;
+    color: #253D5B;
     font-weight: bold;
     padding-top: 1rem;
 }
@@ -28,7 +28,7 @@
     width: 80px;
     height: 80px;
     align-items: center;
-    color: #e4e4e4;
+    color: #253D5B;
     font-size: 1.8rem;
     display: flex;
     justify-content: center;
@@ -36,9 +36,9 @@
     cursor: pointer;
 }
 .active-tabs{
-    background: #9fd3c7;
+    background: #253D5B;
     color: #eeeeee;
-    box-shadow: 0px 0px 15px #9fd3c7;
+    box-shadow: 0px 0px 15px #253D5B;
 }
 .content{
     text-align: center;
@@ -46,12 +46,12 @@
     width: 400px;
 }
 .content h3{
-    color: #9fd3c7;
+    color: #253D5B;
     font-size: 2rem;
 }
 .container p{
     font-size: 0.7rem;
-    color: #e4e4e4;
+    color: #0f0f0f;
     font-weight: 400;
 }
 .active-content{

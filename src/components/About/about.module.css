@@ -2,7 +2,7 @@
 .container{
     display: flex;
     justify-content: space-around;
-    background-color: #222;
+    background-color: #0F0326;
     max-width: 1330px;
     margin: 2rem auto;
     padding: 3.2rem 1rem;
@@ -30,9 +30,7 @@
     font-size: 2.2rem;
     font-weight: 800;
 }
-.container div h1 span{
-    color: #9fd3c7;
-}
+
 .container div h3{
     margin-top: 15px;
     font-size: 1.2rem;
